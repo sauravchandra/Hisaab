@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="saurav.chandra.hisaab">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name=".Hisaab"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="Hisaab"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity_splash"
+            android:label="Hisaab"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_main"
+            android:label="Hisaab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_account"
+            android:label="Account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity_transaction_view"
+            android:label="Transaction Details"
+            android:parentActivityName=".activity_main" />
+        <activity
+            android:name=".activity_new_shared"
+            android:label="New Shared"
+            android:parentActivityName=".activity_main" />
+        <activity
+            android:name=".activity_new_personal"
+            android:label="New Personal"
+            android:parentActivityName=".activity_main" />
+        <activity android:name=".activity_clear"
+            android:label="Clear Hisaab"
+            android:parentActivityName=".activity_main"/>
+    </application>
+
+</manifest>

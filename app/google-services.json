@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1026497593128",
+    "firebase_url": "https://hisaab-805c5.firebaseio.com",
+    "project_id": "hisaab-805c5",
+    "storage_bucket": "hisaab-805c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026497593128:android:c5dc386e528ccd6f",
+        "android_client_info": {
+          "package_name": "saurav.chandra.hisaab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026497593128-0e9ue8f5tgd1cku49q31p4k2gb3ljqnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZyIAQbbdhLHhheJIWtrHm4tEJRniM2E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

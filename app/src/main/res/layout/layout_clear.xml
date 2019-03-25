@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="saurav.chandra.hisaab.activity_clear"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:background="@drawable/border"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_height="25dp"
+                android:layout_width="wrap_content"
+                android:text="Total Spent"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/total_spent"
+                android:layout_marginTop="45dp"
+                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:text="Rs.1000"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".50"
+            android:padding="10dp"
+            android:foreground="?selectableItemBackground"
+            android:background="@drawable/border"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="25dp"
+                android:layout_width="wrap_content"
+                android:text="Total Kharcha"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/total_expenditure"
+                android:layout_marginTop="45dp"
+                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:text="Rs.900"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:foreground="?selectableItemBackground"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="25dp"
+            android:layout_width="wrap_content"
+            android:text="Total Personal"
+            android:textSize="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/total_personal"
+            android:layout_height="30dp"
+            android:layout_width="wrap_content"
+            android:text="Rs.900"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/clear_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear request pending..."
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:paddingBottom="0dp"/>
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="CLEAR"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
